@@ -299,9 +299,9 @@ h1, h2, h3, h4, h5,
 .site-logo {
   position: relative;
   font-weight: 900;
-  font-size: 1.3rem; }
-  .site-logo a {
-    color: #fff; }
+  font-size: 1.4rem; }
+   .site-logo a { 
+   color: white; } 
 
 .site-navbar {
   margin-bottom: 0px;
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5,
   width: 100%; }
   .site-navbar .container-fluid {
     padding-left: 7rem;
-    padding-right: 7rem; }
+    padding-right: 7rem; ;}
     @media (max-width: 1199.98px) {
       .site-navbar .container-fluid {
         padding-left: 15px;
@@ -330,11 +330,12 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 5px 20px;
-        color: #fff;
+        color: white;
         display: inline-block;
-        text-decoration: none !important; }
+        text-decoration: none !important; 
+        font-size: 20px;}
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #fff; }
+          color: #FFD4D4; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -581,8 +582,9 @@ h1, h2, h3, h4, h5,
     .sticky-wrapper .site-navbar .site-menu > li {
       display: inline-block; }
       .sticky-wrapper .site-navbar .site-menu > li > a.active {
-        color: #fff;
-        position: relative; }
+        color: white;
+        position: relative;
+        font-size: 20px; }
         .sticky-wrapper .site-navbar .site-menu > li > a.active:after {
           height: 2px;
           background: #fff;
@@ -627,8 +629,8 @@ h1, h2, h3, h4, h5,
     color: #fff;
     margin-bottom: 1.5rem; }
   .intro-section p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.1rem; }
+    color:  #fff;
+    font-size: 1.3rem; }
 
 .img-absolute {
   position: absolute;
@@ -653,7 +655,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #343a40;
+    /* background: #343a40; Remove back-ground color for image*/
     opacity: .9;
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
@@ -686,12 +688,11 @@ h1, h2, h3, h4, h5,
 .cta a span {
   border-color: #7971ea;
   padding: 14px 20px;
-  color: #fff;
+  color: white;
   background: #7971ea;
   border-radius: 30px;
-  font-size: .7rem;
+  font-size: 15px;
   font-weight: 900;
-  text-transform: uppercase;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
@@ -994,7 +995,7 @@ h1, h2, h3, h4, h5,
 
 .courses-title {
   padding-bottom: 13rem;
-  background: #7971ea; }
+  background-image: linear-gradient(to right top, #937dc2, #968bcf, #999adb, #9da8e7, #a2b6f2, #9cb1ee, #97ade9, #91a8e5, #8090d1, #7078be, #6260a9, #554994)}
   .courses-title .section-title {
     color: #fff; }
 
